@@ -28,7 +28,7 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ## 2. Resumen del proyecto
 
-
+Construccion aplicación web que le permita al usuario validar el número de una tarjeta de regalo. 
 
 ## 3. Objetivos de aprendizaje
 
