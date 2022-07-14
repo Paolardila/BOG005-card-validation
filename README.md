@@ -1,11 +1,12 @@
-# Tarjeta de crédito válida
+# Tarjeta Regalo a válidar
 
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Lecturas complementarias](#4-lecturas-complementarias)
+* [3. Tarjeta relagalo](#3-Tarjeta-relagalo)
+* [4. Objetivos de aprendizaje](#4-objetivos-de-aprendizaje)
+* [5. Lecturas complementarias](#5-lecturas-complementarias)
 
 ***
 
@@ -28,7 +29,29 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 Construccion aplicación web que le permita al usuario validar el número de una tarjeta de regalo. 
 
-## 3. Objetivos de aprendizaje
+## 3. Tarjeta Regalo
+
+- [ ] **Cliente**
+
+Empresa Ironic@x dedicada al comercio al por menor de productos textiles, cosméticos y artículos de tocador productos confeccionados para uso doméstico, en establecimientos especializados.
+
+- [ ] **Tajetas Regalo**
+
+Ironic@x como estrategia y técnica de marketing cuyo objetivo es conseguir que los consumidores que han adquirido con anterioridad alguno de sus productos o servicios siga comprando a lo largo del tiempo, convirtiéndose en un cliente habitual. 
+Deciden que por compras superiores a $200.000 darán tarjetas regalo (valor $20.000) las cuales podrán ser redimidas en cualquiera de sus sucursales.
+
+- [ ] **Necesidad**
+
+Empresa necesita producto que les ayude a validar el numero de las tarjetas regalo activas y/o existente, el número a verificar será válido si la suma de sus dígitos finales es un múltiplo de 10.
+
+- [ ] **Solucion**
+
+Se utilizara el algoritmo de Luhn en una pagina sencilla donde el asesor introduzca numero a veirificar de la tarjeta regalo presentada al momento de efectuar el pago esto con el fin de ver que se encuentre activa y/o existente.
+
+![imagen1]C:\Users\Paola\Documents\GitHub\BOG005-card-validation\imagenes\primera idea.jpeg
+![imagen2]C:\Users\Paola\Documents\GitHub\BOG005-card-validation\imagenes\prototipo.PNG
+
+## 4. Objetivos de aprendizaje
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
@@ -191,7 +214,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 - [ ] **Seguir los principios básicos de diseño visual**
 
-## 4.  Lecturas complementarias
+## 5.  Lecturas complementarias
 
 ### Recursos y temas relacionados
 
