@@ -31,25 +31,25 @@ Construccion aplicación web que le permita al usuario validar el número de una
 
 ## 3. Tarjeta Regalo
 
-- [ ] **Cliente**
+- **Cliente**
 
 Empresa Ironic@x dedicada al comercio al por menor de productos textiles, cosméticos y artículos de tocador productos confeccionados para uso doméstico, en establecimientos especializados.
 
-- [ ] **Tajetas Regalo**
+- **Tajetas Regalo**
 
 Ironic@x como estrategia y técnica de marketing cuyo objetivo es conseguir que los consumidores que han adquirido con anterioridad alguno de sus productos o servicios siga comprando a lo largo del tiempo, convirtiéndose en un cliente habitual. 
 Deciden que por compras superiores a $200.000 darán tarjetas regalo (valor $20.000) las cuales podrán ser redimidas en cualquiera de sus sucursales.
 
-- [ ] **Necesidad**
+- **Necesidad**
 
 Empresa necesita producto que les ayude a validar el numero de las tarjetas regalo activas y/o existente, el número a verificar será válido si la suma de sus dígitos finales es un múltiplo de 10.
 
-- [ ] **Solucion**
+- **Solucion**
 
 Se utilizara el algoritmo de Luhn en una pagina sencilla donde el asesor introduzca numero a veirificar de la tarjeta regalo presentada al momento de efectuar el pago esto con el fin de ver que se encuentre activa y/o existente.
 
-![imagen1]C:\Users\Paola\Documents\GitHub\BOG005-card-validation\imagenes\primera idea.jpeg
-![imagen2]C:\Users\Paola\Documents\GitHub\BOG005-card-validation\imagenes\prototipo.PNG
+![imagen1](C:\Users\Paola\Documents\GitHub\BOG005-card-validation\imagenes\primeraidea.jpeg)
+![imagen2](C:\Users\Paola\Documents\GitHub\BOG005-card-validation\imagenes\prototipo.PNG)
 
 ## 4. Objetivos de aprendizaje
 
