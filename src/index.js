@@ -1,12 +1,16 @@
-import validator from './validator.js';
 
-Validar.addEventListener("click",saludar);
+const boton = document.querySelector("#miBoton");
+boton.addEventListener("click", function () {
+    var numberCard = document.getElementById('numerot').value;
 
-
-function saludar() {
-    alert("Recuerde ingresar numero de tarjeta completa");
-}
-console.log(validator);
-
-
-
+    function valid_credit_card(value) {
+        /**
+         * regular expression para validar que sea un numero. :)
+         */
+        if (/[^0-9-\s]+/.test(value)) return false;
+    
+        let nCheck = 0, bEven = false;
+        /**
+         * reemplaza los espacios, :)
+         */
+        value = value.replace(/\D/g, "");

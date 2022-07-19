@@ -2,15 +2,30 @@
   margin: 0;  
   padding: 0;
   box-sizing: border-box;
+  background-image: url('C:\Users\LABORATORIA\Desktop\Proyecto1\BOG005-card-validation\imagenes\fondo.jpg');
  
 }
 
-div {
+
+header  {
     width: 400px;
-    background-color: darkcyan;
+    background-color: rgb(26, 86, 110);
     padding: 30px;
     margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
+    margin-top: 50px;
+    border-radius: 10px;
     color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+body {
+  width: 300px;
+  background-color: rgb(68, 114, 145);
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+
 }
