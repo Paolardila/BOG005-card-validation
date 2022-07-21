@@ -1,16 +1,23 @@
+import validator from './validator.js';
+
+console.log(validator);
 
 const boton = document.querySelector("#miBoton");
 boton.addEventListener("click", function () {
     var numberCard = document.getElementById('numerot').value;
 
-    function valid_credit_card(value) {
-        /**
-         * regular expression para validar que sea un numero. :)
-         */
-        if (/[^0-9-\s]+/.test(value)) return false;
-    
-        let nCheck = 0, bEven = false;
-        /**
-         * reemplaza los espacios, :)
-         */
-        value = value.replace(/\D/g, "");
+    if (numberCard && numberCard.length > 0) {
+        if (valid_credit_card(numberCard)) {
+            var firstFour = numberCard.substring(0, 4);
+            alert('Es Valida la Tarjeta:  ' + firstFour + ' ' + '****' + ' ' + '****' + ' ' + '****');
+            document.getElementById('numerot').value = '';
+        } else {
+            alert('No es valida la Tarjeta:  ' + numberCard + ' ' + '****' + ' ' + '****' + ' ' + '****');
+            document.getElementById('numerot').value = '';
+        }
+    } else {
+        alert('Por favor ingrese un numero ' + ':)');
+    }
+});
+
+

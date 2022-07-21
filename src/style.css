@@ -6,26 +6,3 @@
  
 }
 
-
-header  {
-    width: 400px;
-    background-color: rgb(26, 86, 110);
-    padding: 30px;
-    margin: auto;
-    margin-top: 50px;
-    border-radius: 10px;
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-}
-
-body {
-  width: 300px;
-  background-color: rgb(68, 114, 145);
-  padding: 30px;
-  margin: auto;
-  margin-top: 100px;
-  border-radius: 10px;
-  color: white;
-  box-shadow: 7px 13px 37px #000;
-
-}
