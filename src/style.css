@@ -1,8 +1,10 @@
-*{
-  margin: 0;  
-  padding: 0;
-  box-sizing: border-box;
-  background-image: url('C:\Users\LABORATORIA\Desktop\Proyecto1\BOG005-card-validation\imagenes\fondo.jpg');
- 
+.htmlbody {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  background: center / contain no-repeat url(C:\Users\LABORATORIA\Desktop\Proyecto1\BOG005-card-validation\css\fondo.jpg)
 }
-
+.h2{
+  padding-top:2em;
+}
